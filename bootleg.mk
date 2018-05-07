@@ -36,7 +36,10 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 TARGET_VENDOR_PRODUCT_NAME := land
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="land-user 6.0.1 MMB29M V9.5.1.0.MALMIFA release-keys" \
-    DEVICE_MAINTAINERS="TaranHora"
+    PRIVATE_BUILD_DESC="land-user 6.0.1 MMB29M V9.5.5.0.MALMIFA release-keys" \
+     DEVICE_MAINTAINERS="TaranHora"
 
-BUILD_FINGERPRINT := Xiaomi/land/land:6.0.1/MMB29M/V9.5.1.0.MALMIFA:user/release-keys
+# Set BUILD_FINGERPRINT variable to be picked up by both system and boot image
+BUILD_FINGERPRINT := "Xiaomi/land/land:6.0.1/MMB29M/V9.5.5.0.MALMIFA:user/release-keys"
+
+
