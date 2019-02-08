@@ -211,3 +211,7 @@ ro.vendor.qti.sys.fw.trim_enable_memory=2147483648
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
 wifi.interface=wlan0
+
+# Security patch level
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.vendor.build.security_patch=2019-02-05
